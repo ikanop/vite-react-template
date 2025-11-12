@@ -1,6 +1,5 @@
 import {createTheme} from '@mui/material/styles';
-import {pink, teal} from '@mui/material/colors';
-
+import {pink, teal, grey} from '@mui/material/colors';
 
 const theme = createTheme({
     palette: {
@@ -18,7 +17,9 @@ const theme = createTheme({
     },
     typography: {
         fontFamily: "Inter",
-        fontSize: "1rem",
+        allVariants: {
+            color: grey[200]
+        }
     },
 });
 
