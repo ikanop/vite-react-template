@@ -8,6 +8,22 @@ A minimal Vite + React template to kickstart your projects quickly.
 - Fast development server
 - Ready for JavaScript
 
+## Project Structure
+```
+src
+├── App.jsx
+├── assets
+│   └── react.svg
+├── components
+│   ├── containedButton.jsx
+│   └── header.jsx
+├── index.css
+├── main.jsx
+├── pages
+│   └── home.jsx
+└── theme.js
+```
+
 ## Installation
 
 ### Option 1: Using Git Clone
